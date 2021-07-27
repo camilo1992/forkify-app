@@ -1,0 +1,23 @@
+{
+  "name": "starter",
+  "version": "1.0.0",
+  "description": "forky-fy",
+  "default": "index.js",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": " parcel build index.html --dist-dir ./dist"
+  },
+  "author": "Cristian Camilo",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-proposal-private-methods": "^7.14.5",
+    "@babel/plugin-proposal-private-property-in-object": "^7.14.5",
+    "core-js": "^3.15.2",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.13.7"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "parcel": "^2.0.0-beta.2"
+  }
+}
