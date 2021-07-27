@@ -137,7 +137,7 @@ const controlAddRecipe = async function (newRecipe) {
 };
 
 const newfeature = function () {
-  console.log(`Welcome this is the brnach new feature in your repository`);
+  console.log(`Welcome this is your app!!!`);
 };
 
 const init = function () {
