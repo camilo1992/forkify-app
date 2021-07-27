@@ -136,6 +136,10 @@ const controlAddRecipe = async function (newRecipe) {
   }
 };
 
+const newfeature = function () {
+  console.log(`Welcome this is the brnach new feature in your repository`);
+};
+
 const init = function () {
   bookmarksView.addHAndlerRender(controlBookmarks);
   recipeView.renderHandlerRecipe(controlRecipes);
@@ -146,6 +150,7 @@ const init = function () {
   paginationView.addHandlerClick(controlPagination);
 
   addRecipeView.addHandlerUpload(controlAddRecipe);
+  newfeature();
 };
 
 init();
